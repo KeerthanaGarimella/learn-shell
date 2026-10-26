@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "$CORSE"
+echo "$COURSE"
 echo "$DURATION"
 echo "$TRAINER"
