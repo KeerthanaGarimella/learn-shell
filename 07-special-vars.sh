@@ -9,3 +9,9 @@ echo "who is running the current script: $USER"
 echo "Directory of the current script: $PWD"
 echo "Home directory of the current user: $HOME"
 echo "PID of the current script: $$"
+sleep 10 &
+echo "PID of the command running in bacground now:$!"
+wait $! 
+echo "Line number:$LINENO"
+
+echo "s"
