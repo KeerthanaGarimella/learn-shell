@@ -14,4 +14,5 @@ echo "PID of the command running in bacground now:$!"
 wait $! 
 echo "Line number:$LINENO"
 
-echo "s"
+echo "previous command exit status: $?"
+echo "Total time executed for this script: $SECONDS"
