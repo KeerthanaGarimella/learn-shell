@@ -27,7 +27,4 @@ echo "script started execution at:$(date +"%F %T")"&>> $logs_file
         echo "Going to install: ${package}"
         dnf install ${package} -y &>> $logs_file
         validate $? "${package} installation"
-    else
-        echo "${package} is already installed .. Skipping" 
-    fi  
  done 
