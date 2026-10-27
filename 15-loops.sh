@@ -9,7 +9,7 @@ fi
 
 mkdir -p $logs_folder
 
-echo "script started execution at:$(date +"%F %T")"
+echo "script started execution at:$(date +"%F %T")"&>> $logs_file
 
   validate(){
     if [$? -ne 0];then
