@@ -21,5 +21,5 @@ echo "script started execution at:$(date +"%F %T")"
 }
  
  for package in $@
-   echo "Going to install : ${package}"
+ do echo "Going to install : ${package}"
  done 
