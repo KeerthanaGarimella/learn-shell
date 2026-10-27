@@ -21,6 +21,8 @@ dnf install nginx -y
 
 dnf install mysql -y
 
+validate $? "Mysql installation"
+
 if[$? -ne 0] then
     echo "Mysql installation failed"
     exit 1

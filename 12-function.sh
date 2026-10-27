@@ -10,7 +10,7 @@ fi
 echo "proceeding.."
 dnf install nginx -y
   validate(){
-    if [$? -ne 0] ;then
+    if [$? -ne 0];then
     echo "${2}.. failed"
     exit 1
   else
